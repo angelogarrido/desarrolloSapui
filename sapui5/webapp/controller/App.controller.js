@@ -1,6 +1,6 @@
 // @ts-nocheck
 sap.ui.define([
-    "sap/ui/core/mvc/Controller",
+    "sap/ui/core/mvc/Controller"
 ],
     /**
     * @param {typeof sap.ui.core.mvc.Controller} Controller
@@ -11,7 +11,13 @@ sap.ui.define([
         return Controller.extend("ns.sapui5.controller.App", {
 
             onInit: function () {
+
+            },
+
+            onOpenDialogHeader: function() {
+                this.getOwnerComponent().openHelloDialog();
             }
 
         });
     });
+    
