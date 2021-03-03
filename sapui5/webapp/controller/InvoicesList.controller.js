@@ -6,7 +6,7 @@ sap.ui.define([
 /**
  * 
  * @param {type sap.ui.core.mvc.Controller } Controller
- * @param {type sap.ui.model.json.JSONModel } JSONModel  esta es una prueba
+ * @param {type sap.ui.model.json.JSONModel } JSONModel  
  */
 function(Controller,JSONModel) {
 
